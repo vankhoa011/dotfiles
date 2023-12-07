@@ -1,6 +1,8 @@
 add_newline = false
 scan_timeout = 10
-
+[kubernetes]
+format = '[⛵$cluster](dimmed green) '
+disabled = false
 [character]
 error_symbol = "[✖](bold red) "
 
